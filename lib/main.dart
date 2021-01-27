@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:parse_server_sdk_flutter/parse_server_sdk.dart';
+import 'package:xlo_mobx/screens/base/base_screen.dart';
 
 void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await initializeParse();
   runApp(MyApp());
 }
@@ -20,12 +22,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'XLO',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Container()
+      home: BaseScreen()
     );
   }
 }
