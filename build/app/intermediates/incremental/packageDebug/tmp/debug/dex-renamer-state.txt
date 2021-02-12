@@ -1,0 +1,4 @@
+#Tue Jan 26 22:56:32 BRT 2021
+base.0=/Users/rafaellfx/Documents/udemy/cursoFlutter/xlo_mobx/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

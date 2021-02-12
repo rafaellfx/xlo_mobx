@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+br/com/rafaellfx/xlo_mobx/BuildConfig.java
+ br.com.rafaellfx.xlo_mobx.BuildConfig
