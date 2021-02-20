@@ -38,6 +38,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "brasil_fields",
+      "rootUri": "file:///Users/rafaellfx/.pub-cache/hosted/pub.dartlang.org/brasil_fields-0.6.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "build",
       "rootUri": "file:///Users/rafaellfx/.pub-cache/hosted/pub.dartlang.org/build-1.6.2",
       "packageUri": "lib/",
@@ -224,6 +230,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_mobx",
+      "rootUri": "file:///Users/rafaellfx/.pub-cache/hosted/pub.dartlang.org/flutter_mobx-1.1.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/rafaellfx/Documents/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -282,6 +294,12 @@
       "rootUri": "file:///Users/rafaellfx/Documents/flutter/packages/integration_test",
       "packageUri": "lib/",
       "languageVersion": "2.10"
+    },
+    {
+      "name": "intl",
+      "rootUri": "file:///Users/rafaellfx/.pub-cache/hosted/pub.dartlang.org/intl-0.16.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.5"
     },
     {
       "name": "io",
@@ -692,7 +710,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-02-08T01:19:23.287764Z",
+  "generated": "2021-02-20T01:03:27.362585Z",
   "generator": "pub",
   "generatorVersion": "2.12.0-204.0.dev"
 }
