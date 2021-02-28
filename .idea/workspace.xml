@@ -11,10 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61269efe-58fd-466f-90af-4215dc9ae329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/helpers/extensions.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/components/error_box.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/repositories/parse_erros.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/build/generated/xlo_mobx/lib/store/signup_store.store_generator.g.part" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/generated/xlo_mobx/lib/store/signup_store.store_generator.g.part" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/user.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/user.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/table_keys.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/table_keys.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/user_repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/signup/signup_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/signup/signup_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store/signup_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/signup_store.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store/signup_store.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/signup_store.g.dart" afterDir="false" />
@@ -85,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611885967665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criando usuário no Parse Server">
+      <created>1614389618269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614389618273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,25 +121,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Criando custom_drawer.dart" />
     <MESSAGE value="Adicionando customDrawerHeader, PageSction, PageTile, arredondando o Drawer com ClipRRect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando customDrawerHeader, PageSction, PageTile, arredondando o Drawer com ClipRRect" />
+    <MESSAGE value="Criando usuário no Parse Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criando usuário no Parse Server" />
   </component>
   <component name="WindowStateProjectService">
     <state x="456" y="253" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1612311195299">
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="456" y="253" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.25.1440.814@0.25.1440.814" timestamp="1612311195299" />
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1612746803148">
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1614543999006">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.815@0.25.1440.815" timestamp="1612746803148" />
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.815@0.25.1440.815" timestamp="1614543999006" />
     <state x="408" y="172" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611712238846">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="408" y="172" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1440.815@0.25.1440.815" timestamp="1611712238846" />
-    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1611885967454">
+    <state x="278" y="25" key="CommitChangelistDialog2" timestamp="1614389617941">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="278" y="25" key="CommitChangelistDialog2/0.25.1440.815@0.25.1440.815" timestamp="1611885967454" />
+    <state x="278" y="25" key="CommitChangelistDialog2/0.25.1440.815@0.25.1440.815" timestamp="1614389617941" />
     <state x="278" y="25" key="CommitChangelistDialog2/0.25.1440.817@0.25.1440.817" timestamp="1611714363857" />
     <state width="1398" height="448" key="GridCell.Tab.0.bottom" timestamp="1611714579867">
       <screen x="0" y="25" width="1440" height="817" />
@@ -154,13 +166,18 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="221" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1612311197918" />
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1611714413080">
-      <screen x="0" y="25" width="1440" height="817" />
-    </state>
-    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1611714413080" />
-    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1613095827126">
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1614389626240">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.25.1440.815@0.25.1440.815" timestamp="1613095827126" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.815@0.25.1440.815" timestamp="1614389626240" />
+    <state x="320" y="169" key="Vcs.Push.Dialog.v2/0.25.1440.817@0.25.1440.817" timestamp="1611714413080" />
+    <state x="413" y="158" width="615" height="548" key="find.popup" timestamp="1614542105278">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="413" y="158" width="615" height="548" key="find.popup/0.25.1440.815@0.25.1440.815" timestamp="1614542105278" />
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup" timestamp="1614389327175">
+      <screen x="0" y="25" width="1440" height="815" />
+    </state>
+    <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.25.1440.815@0.25.1440.815" timestamp="1614389327175" />
   </component>
 </project>
