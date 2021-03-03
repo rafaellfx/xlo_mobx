@@ -11,16 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61269efe-58fd-466f-90af-4215dc9ae329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/store/login_store.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/store/login_store.g.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/store/user_manager_store.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/components/custom_drawer/custom_drawer_header.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/components/custom_drawer/custom_drawer_header.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/repositories/user_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/user_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/login/login_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/login/login_screen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/store/signup_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/signup_store.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/user_manager_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/user_manager_store.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/user_manager_store.g.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
