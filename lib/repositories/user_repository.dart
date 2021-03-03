@@ -6,6 +6,7 @@ import 'package:xlo_mobx/repositories/table_keys.dart';
 class UserRepository {
 
   Future<User> signUp(User user) async {
+
     final parseUser = ParseUser(user.email, user.password, user.email);
 
     parseUser.set<String>(KeyUserName, user.name);
@@ -31,6 +32,18 @@ class UserRepository {
       type: UserType.values[parseUser.get(KeyUserType)],
       createdAt: parseUser.get(KeyUserCreatedAt)
     );
+  }
+
+  Future<User> loginWithEmail(String email, String password) async {
+
+    final parseUser = ParseUser(email, password, null);
+    final response = await parseUser.login();
+    if (response.success){
+      return mapParseToUser(response.result);
+    }else{
+      return Future.error(ParseErrors.getDescription(response.error.code));
+    }
+
   }
 
 
