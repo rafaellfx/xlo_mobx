@@ -302,6 +302,12 @@
       "languageVersion": "2.10"
     },
     {
+      "name": "image_cropper",
+      "rootUri": "file:///Users/rafaellfx/.pub-cache/hosted/pub.dartlang.org/image_cropper-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "1.20"
+    },
+    {
       "name": "image_picker",
       "rootUri": "file:///Users/rafaellfx/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+22",
       "packageUri": "lib/",
@@ -734,7 +740,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-03-05T23:27:41.539676Z",
+  "generated": "2021-03-05T23:47:32.438347Z",
   "generator": "pub",
   "generatorVersion": "2.12.0-204.0.dev"
 }
