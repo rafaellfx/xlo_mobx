@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61269efe-58fd-466f-90af-4215dc9ae329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/models/uf.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repositories/ibge_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/models/city.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/repositories/ibge_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/repositories/ibge_repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -126,10 +126,10 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="456" y="253" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.25.1440.814@0.25.1440.814" timestamp="1612311195299" />
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1615936502792">
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1616114768570">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.815@0.25.1440.815" timestamp="1615936502792" />
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.815@0.25.1440.815" timestamp="1616114768569" />
     <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.817@0.25.1440.817" timestamp="1615681770806" />
     <state x="408" y="172" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611712238846">
       <screen x="0" y="25" width="1440" height="815" />
@@ -160,11 +160,11 @@
     </state>
     <state width="1398" height="448" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1611714579867" />
     <state width="1398" height="448" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1611712671229" />
-    <state x="221" y="68" key="SettingsEditor" timestamp="1615936424388">
+    <state x="221" y="68" key="SettingsEditor" timestamp="1615936879968">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="221" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1612311197918" />
-    <state x="221" y="68" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1615936424387" />
+    <state x="221" y="68" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1615936879968" />
     <state x="221" y="68" key="SettingsEditor/0.25.1440.817@0.25.1440.817" timestamp="1615682433555" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1614389626240">
       <screen x="0" y="25" width="1440" height="815" />
