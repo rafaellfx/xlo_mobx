@@ -6,6 +6,8 @@ import 'package:xlo_mobx/screens/create/components/category_field.dart';
 import 'package:xlo_mobx/screens/create/components/images_field.dart';
 import 'package:xlo_mobx/store/create_store.dart';
 
+import 'components/zipcode_field.dart';
+
 class CreateScreen extends StatelessWidget {
   final CreateStore createStore = CreateStore();
 
@@ -46,6 +48,7 @@ class CreateScreen extends StatelessWidget {
               maxLines: null,
             ),
             CategoryField(createStore),
+            ZipcodeField(),
             TextFormField(
               decoration: InputDecoration(
                 labelText: 'Preço *',
