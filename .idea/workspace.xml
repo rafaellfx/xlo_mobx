@@ -11,14 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61269efe-58fd-466f-90af-4215dc9ae329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/models/address.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/repositories/zipcode_repository.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/create/components/zipcode_field.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/store/zipcode_store.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/store/zipcode_store.g.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screens/create/components/hide_phone_field.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/create/create_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/create/create_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/create_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/create_store.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/store/create_store.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/create_store.g.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,11 +124,11 @@
       <screen x="0" y="25" width="1440" height="814" />
     </state>
     <state x="456" y="253" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.25.1440.814@0.25.1440.814" timestamp="1612311195299" />
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1616289242680">
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser" timestamp="1616452679841">
       <screen x="0" y="25" width="1440" height="817" />
     </state>
     <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.815@0.25.1440.815" timestamp="1616283836677" />
-    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.817@0.25.1440.817" timestamp="1616289242680" />
+    <state x="533" y="152" key="#com.intellij.ide.util.MemberChooser/0.25.1440.817@0.25.1440.817" timestamp="1616452679841" />
     <state x="408" y="172" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611712238846">
       <screen x="0" y="25" width="1440" height="815" />
     </state>

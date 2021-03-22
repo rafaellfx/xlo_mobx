@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:xlo_mobx/components/custom_drawer/custom_drawer.dart';
 import 'package:xlo_mobx/screens/create/components/category_field.dart';
+import 'package:xlo_mobx/screens/create/components/hide_phone_field.dart';
 import 'package:xlo_mobx/screens/create/components/images_field.dart';
 import 'package:xlo_mobx/store/create_store.dart';
 
@@ -30,6 +31,7 @@ class CreateScreen extends StatelessWidget {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         elevation: 8,
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           mainAxisSize: MainAxisSize.min,
           children: [
             ImagesField(createStore),
@@ -61,6 +63,18 @@ class CreateScreen extends StatelessWidget {
                 FilteringTextInputFormatter.digitsOnly,
                 RealInputFormatter(centavos: true),
               ],
+            ),
+            HidePhoneField(createStore: createStore),
+            SizedBox(
+              height: 50,
+              child: RaisedButton(
+                child: Text("Enviar", style: TextStyle(fontSize: 18),),
+                textColor: Colors.white,
+                color: Colors.orange,
+                disabledColor: Colors.orange.withAlpha(120),
+                onPressed: null,
+                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              ),
             )
           ],
         ),
