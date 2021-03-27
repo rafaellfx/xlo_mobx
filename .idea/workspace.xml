@@ -11,9 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61269efe-58fd-466f-90af-4215dc9ae329" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/screens/create/components/hide_phone_field.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/build/098d3ee73e6cc294616d3a2e2c3c81ad/asset_graph.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/create/components/category_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/create/components/category_field.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/create/components/images_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/create/components/images_field.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/create/components/zipcode_field.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/create/components/zipcode_field.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/create/create_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/create/create_screen.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store/create_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/create_store.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/store/create_store.g.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/store/create_store.g.dart" afterDir="false" />
@@ -50,7 +51,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="flutter.settings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
@@ -158,11 +159,11 @@
     </state>
     <state width="1398" height="448" key="GridCell.Tab.0.right/0.25.1440.817@0.25.1440.817" timestamp="1611714579867" />
     <state width="1398" height="448" key="GridCell.Tab.0.right/0.25.1440.818@0.25.1440.818" timestamp="1611712671229" />
-    <state x="221" y="68" key="SettingsEditor" timestamp="1616284214445">
+    <state x="221" y="68" key="SettingsEditor" timestamp="1616629714143">
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="221" y="68" key="SettingsEditor/0.25.1440.814@0.25.1440.814" timestamp="1612311197918" />
-    <state x="221" y="68" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1616284214445" />
+    <state x="221" y="68" key="SettingsEditor/0.25.1440.815@0.25.1440.815" timestamp="1616629714143" />
     <state x="221" y="68" key="SettingsEditor/0.25.1440.817@0.25.1440.817" timestamp="1615682433555" />
     <state x="320" y="169" key="Vcs.Push.Dialog.v2" timestamp="1614389626240">
       <screen x="0" y="25" width="1440" height="815" />
@@ -173,9 +174,10 @@
       <screen x="0" y="25" width="1440" height="815" />
     </state>
     <state x="413" y="158" width="615" height="548" key="find.popup/0.25.1440.815@0.25.1440.815" timestamp="1614542105278" />
-    <state x="385" y="164" width="670" height="678" key="search.everywhere.popup" timestamp="1615682231592">
-      <screen x="0" y="25" width="1440" height="817" />
+    <state x="385" y="164" width="670" height="677" key="search.everywhere.popup" timestamp="1616545509443">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
+    <state x="385" y="164" width="670" height="677" key="search.everywhere.popup/0.25.1440.815/1440.-68.1920.1055@0.25.1440.815" timestamp="1616545509443" />
     <state x="385" y="164" width="670" height="676" key="search.everywhere.popup/0.25.1440.815@0.25.1440.815" timestamp="1615072886386" />
     <state x="385" y="164" width="670" height="678" key="search.everywhere.popup/0.25.1440.817@0.25.1440.817" timestamp="1615682231592" />
   </component>

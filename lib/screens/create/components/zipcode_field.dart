@@ -2,36 +2,42 @@ import 'package:brasil_fields/brasil_fields.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
+import 'package:xlo_mobx/store/create_store.dart';
 import 'package:xlo_mobx/store/zipcode_store.dart';
 
 class ZipcodeField extends StatelessWidget {
 
 
-  
-  final ZipcodeStore zipcodeStore = ZipcodeStore();
+  ZipcodeField(this.createStore): zipcodeStore = createStore.zipcodeStore;
+
+  final CreateStore createStore;
+  final ZipcodeStore zipcodeStore;
   
   @override
   Widget build(BuildContext context) {
     return Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          TextFormField(
-            onChanged: zipcodeStore.setZipcode,
-            keyboardType: TextInputType.number,
-            inputFormatters: [
-              FilteringTextInputFormatter.digitsOnly,
-              CepInputFormatter()
-            ],
-            decoration: InputDecoration(
-              labelText: 'CEP *',
-              labelStyle: TextStyle(
-                  fontWeight: FontWeight.w800,
-                  color: Colors.grey,
-                  fontSize: 18
+          Observer(builder: (_){
+            return TextFormField(
+              onChanged: zipcodeStore.setZipcode,
+              keyboardType: TextInputType.number,
+              inputFormatters: [
+                FilteringTextInputFormatter.digitsOnly,
+                CepInputFormatter()
+              ],
+              decoration: InputDecoration(
+                errorText: createStore.addressError,
+                labelText: 'CEP *',
+                labelStyle: TextStyle(
+                    fontWeight: FontWeight.w800,
+                    color: Colors.grey,
+                    fontSize: 18
+                ),
+                contentPadding: EdgeInsets.fromLTRB(16, 10, 12, 10),
               ),
-              contentPadding: EdgeInsets.fromLTRB(16, 10, 12, 10),
-            ),
-          ),
+            );
+          }),
           Observer(builder: (_){
             final z = zipcodeStore;
             if(z.address == null && z.error == null && !z.loading){
